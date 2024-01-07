@@ -1,1 +1,13 @@
 eclipse 단축키
+
+- 자동 import 단축키
+Ctrl + Shift + O
+
+- Quick Fix
+Ctrl + 1
+
+- 자동 줄맞춤
+Ctrl + Shift + F
+
+- 열편집 모드
+Alt + Shift + A
