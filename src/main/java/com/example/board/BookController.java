@@ -87,7 +87,7 @@ public class BookController {
 		return mav;
 	}
 	
-	@RequestMapping(value = "list", method = RequestMethod.GET)
+	@RequestMapping(value = "/list", method = RequestMethod.GET)
 	public ModelAndView list(@RequestParam Map<String, Object> map) {
 		
 		List<Map<String, Object>> list = this.bookService.list(map);
@@ -102,6 +102,8 @@ public class BookController {
 		mav.setViewName("/book/list");
 		return mav;
 	}
+	
+	
 }
 
 
