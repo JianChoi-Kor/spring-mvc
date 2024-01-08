@@ -103,7 +103,10 @@ public class BookController {
 		return mav;
 	}
 	
-	
+	@RequestMapping(value = "/transaction", method = RequestMethod.GET)
+	public void transactionTest() {
+		this.bookService.transactionTest();
+	}
 }
 
 
