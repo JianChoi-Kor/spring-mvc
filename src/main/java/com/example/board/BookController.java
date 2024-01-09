@@ -16,6 +16,9 @@ public class BookController {
 	@Autowired
 	BookService bookService;
 	
+	@Autowired
+	BookServiceImpl2 bookServiceImpl2;
+	
 	@RequestMapping(value = "/create", method = RequestMethod.GET)
 	public ModelAndView create() {
 		return new ModelAndView("book/create");
@@ -105,7 +108,7 @@ public class BookController {
 	
 	@RequestMapping(value = "/transaction", method = RequestMethod.GET)
 	public void transactionTest() {
-		this.bookService.transactionTest();
+		this.bookServiceImpl2.transactionTest();
 	}
 }
 

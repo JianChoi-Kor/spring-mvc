@@ -157,6 +157,13 @@
 			<artifactId>spring-tx</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.google.guava/failureaccess -->
+		<dependency>
+    		<groupId>com.google.guava</groupId>
+    		<artifactId>failureaccess</artifactId>
+    		<version>1.0.2</version>
+		</dependency>
 
 		<!-- Test -->
 		<dependency>
